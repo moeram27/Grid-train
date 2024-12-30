@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text {
+    font-weight: 700;
+    width: 90%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 10px;
+    padding-top: 65px;
+    align-items: center;
+}
+
+.card{
+    position: relative;
+}
+
+.thubmnail{
+    width: 100%;
+    display: block;
+}
+
+.image-container{
+    position: relative;
+    
+}
+
+.play-button{
+    position: absolute;
+    top: 37%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+}
